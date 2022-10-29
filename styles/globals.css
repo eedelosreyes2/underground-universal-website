@@ -10,7 +10,7 @@
     @apply text-3xl leading-[52px] md:text-4xl md:leading-[50px];
   }
   h3 {
-    @apply opacity-60 text-xs leading-5 mb-4;
+    @apply uppercase opacity-60 text-xs leading-5 mb-4;
   }
   p {
     @apply text-base mb-2.5;
