@@ -1,6 +1,10 @@
 const Landing = () => {
   return (
-    <div className="h-[620px]">
+    <div
+      className="h-[620px] bg-no-repeat bg-cover bg-center
+        flex items-center"
+      style={{ backgroundImage: "url(landing-img.jpg)" }}
+    >
       <div className="inner-container">
         <h1>
           The Hip-Hop label that works for the{" "}
