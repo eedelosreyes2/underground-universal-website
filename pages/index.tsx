@@ -1,3 +1,4 @@
+import Join from "../components/sections/Join";
 import Landing from "../components/sections/Landing";
 import Mission from "../components/sections/Mission";
 import Problem from "../components/sections/Problem";
@@ -12,6 +13,7 @@ export default function Home() {
       <Problem />
       <Product />
       <Services />
+      <Join />
     </div>
   );
 }
