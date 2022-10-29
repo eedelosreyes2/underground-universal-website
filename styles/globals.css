@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-4xl leading-[48px] md:text-[50px] md:leading-[64px] lg:text-[56px] lg:leading-[70px] my-2.5;
+  }
+  h2 {
+    @apply text-3xl leading-[52px] md:text-4xl md:leading-[50px];
+  }
+  h3 {
+    @apply opacity-60 text-xs leading-5 mb-4;
+  }
+  p {
+    @apply text-base mb-2.5;
+  }
+}
+
+@layer components {
+  .section {
+    @apply py-[100px];
+  }
+  .inner-container {
+    @apply max-w-[1140px] mx-auto;
+  }
+  .red-text {
+    @apply text-red-600 font-bold;
+  }
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Montserrat, sans-serif; /* TODO: Fix  */
+}
