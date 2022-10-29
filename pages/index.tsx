@@ -2,6 +2,7 @@ import Landing from "../components/sections/Landing";
 import Mission from "../components/sections/Mission";
 import Problem from "../components/sections/Problem";
 import Product from "../components/sections/Product";
+import Services from "../components/sections/Services";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Mission />
       <Problem />
       <Product />
+      <Services />
     </div>
   );
 }
