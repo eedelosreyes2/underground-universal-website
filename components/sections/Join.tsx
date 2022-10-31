@@ -1,6 +1,6 @@
 const Join = () => {
   return (
-    <div className="section">
+    <div className="section col">
       <div className="inner-container text-center">
         <h2>
           Join the Underground Universal{" "}

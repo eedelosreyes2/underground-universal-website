@@ -1,6 +1,6 @@
 const Problem = () => {
   return (
-    <div className="section">
+    <div className="section col">
       <div className="inner-container">
         <h3>The Problem With Music Today</h3>
         <div className="grid gap-20 lg:flex">

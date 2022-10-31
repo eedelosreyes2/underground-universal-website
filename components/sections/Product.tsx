@@ -8,10 +8,10 @@ const Product = () => {
           <img
             src="/temp-img.svg"
             alt="The UU App"
-            className="rounded-2xl mb-[50px] lg:max-w-[700px] lg:mb-0 lg:mr-[80px]"
+            className="rounded-2xl px-0 mb-[50px] lg:max-w-[700px] lg:mb-0 xl:mr-[50px]"
           />
         </div>
-        <div>
+        <div className="col">
           <h3>Find Collaborators</h3>
           <h2>
             The Underground Universal <span className="red-text">App</span>

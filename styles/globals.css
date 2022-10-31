@@ -19,10 +19,13 @@
 
 @layer components {
   .section {
-    @apply px-[50px] py-[100px];
+    @apply py-[100px];
   }
   .inner-container {
     @apply max-w-[1140px] lg:mx-auto;
+  }
+  .col {
+    @apply px-[30px] xl:px-0;
   }
   .p-big {
     @apply text-base opacity-100 md:text-xl;

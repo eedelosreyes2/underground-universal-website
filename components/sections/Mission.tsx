@@ -1,6 +1,6 @@
 const Mission = () => {
   return (
-    <div className="section">
+    <div className="section col">
       <div className="inner-container">
         <h3>Say goodbye to Unfair record labels and minimal royalties</h3>
         <h2>
