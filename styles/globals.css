@@ -34,7 +34,10 @@
     @apply text-red-600 font-bold;
   }
   .button-1 {
-    @apply cursor-pointer inline-block uppercase tracking-widest font-medium text-xs leading-5 rounded-full bg-gray-800 hover:bg-gray-600 px-7 py-3;
+    @apply cursor-pointer inline-block uppercase tracking-widest font-medium text-xs leading-5 rounded-full bg-gray-800 px-7 py-3;
+  }
+  .button-2 {
+    @apply cursor-pointer inline-block uppercase tracking-widest font-medium rounded-full bg-white text-black px-9 py-5
   }
 }
 
