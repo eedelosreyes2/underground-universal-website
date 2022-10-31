@@ -4,25 +4,28 @@
 
 @layer base {
   h1 {
-    @apply text-4xl leading-[48px] md:text-[50px] md:leading-[64px] lg:text-[56px] lg:leading-[70px] my-2.5;
+    @apply text-4xl leading-[48px] sm:text-[50px] sm:leading-[64px] lg:text-[64px] lg:leading-[70px] my-2.5;
   }
   h2 {
-    @apply text-3xl leading-[52px] md:text-4xl md:leading-[50px];
+    @apply text-3xl leading-[52px] md:text-4xl md:leading-[50px] mb-4;
   }
   h3 {
-    @apply uppercase opacity-60 text-xs leading-5 mb-4;
+    @apply uppercase opacity-60 tracking-widest font-medium text-xs leading-5 mb-4;
   }
   p {
-    @apply text-base mb-2.5;
+    @apply text-base opacity-60 leading-7 mb-2.5;
   }
 }
 
 @layer components {
   .section {
-    @apply py-[100px];
+    @apply px-[50px] py-[100px];
   }
   .inner-container {
-    @apply max-w-[1140px] mx-auto;
+    @apply max-w-[1140px] lg:mx-auto;
+  }
+  .p-big {
+    @apply text-base opacity-100 md:text-xl;
   }
   .red-text {
     @apply text-red-600 font-bold;

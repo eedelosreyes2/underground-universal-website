@@ -3,16 +3,7 @@ const Problem = () => {
     <div className="section">
       <div className="inner-container">
         <h3>The Problem With Music Today</h3>
-        <div className="lg:flex">
-          <div>
-            <h2>Artist Support</h2>
-            <p>
-              When you sign to a record label, you often lose creative control
-              of your music. This includes being granted time and freedom to
-              create new albums that are unique to your creative vision as an
-              artist.
-            </p>
-          </div>
+        <div className="grid gap-20 lg:flex">
           <div>
             <h2>
               It's <span className="red-text">your</span> art
@@ -23,6 +14,16 @@ const Problem = () => {
               who typically only receive less than 17-20% of their royalties.
             </p>
           </div>
+          <div>
+            <h2>Artist Support</h2>
+            <p>
+              When you sign to a record label, you often lose creative control
+              of your music. This includes being granted time and freedom to
+              create new albums that are unique to your creative vision as an
+              artist.
+            </p>
+          </div>
+
           <div>
             <h2>Collaboration</h2>
             <p>

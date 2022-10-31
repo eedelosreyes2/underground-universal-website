@@ -8,7 +8,7 @@ const Product = () => {
           <img
             src="/temp-img.svg"
             alt="The UU App"
-            className="rounded-2xl lg:max-w-[700px]"
+            className="rounded-2xl mb-[50px] lg:max-w-[700px] lg:mb-0 lg:mr-[80px]"
           />
         </div>
         <div>
