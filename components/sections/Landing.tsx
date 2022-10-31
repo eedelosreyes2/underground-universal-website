@@ -10,8 +10,7 @@ const Landing = () => {
           <span className="red-text">artist</span>
         </h1>
         <p className="p-big">
-          With Underground Universal, it's your music, your art, we take 0% of
-          your royalties.
+          It’s your music, your art. We take 0% of your royalties.
         </p>
       </div>
     </div>
