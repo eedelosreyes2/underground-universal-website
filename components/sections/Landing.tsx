@@ -9,9 +9,10 @@ const Landing = () => {
           The Hip-Hop label that works for the{" "}
           <span className="red-text">artist</span>
         </h1>
-        <p className="p-big">
+        <p className="p-big mb-20">
           It’s your music, your art. We take 0% of your royalties.
         </p>
+        <div className="button-1">Learn more</div>
       </div>
     </div>
   );

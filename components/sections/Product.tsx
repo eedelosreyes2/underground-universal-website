@@ -12,16 +12,17 @@ const Product = () => {
           />
         </div>
         <div className="col">
-          <h3>Find Collaborators</h3>
+          <h3>TAKE CREATIVE CONTROL</h3>
           <h2>
             The Underground Universal <span className="red-text">App</span>
           </h2>
-          <p>
-            We give you the tools to easily find fellow artists who deserve
+          <p className="mb-10">
+            We give you the tools to seamlessly become an artist who deserves
             recognition. Discover new talent and collaborate with them on a
             project you're passionate about while getting all the support you
-            need as an underground artist.
+            need as a rising artist.
           </p>
+          <div className="button-1">Join waitlist</div>
         </div>
       </div>
     </div>
