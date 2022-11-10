@@ -1,9 +1,9 @@
 const Join = () => {
   return (
-    <div className="section col">
+    <div className="section col mb-[100px] sm:mb-[200px]">
       <div className="inner-container text-center">
         <h2>
-          Join the Underground Universal{" "}
+          Join the Underground Universal{' '}
           <span className="red-text">Community</span>
         </h2>
         <p className="max-w-[780px] mx-auto mb-10">
