@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 const Product = () => {
   return (
@@ -6,7 +6,7 @@ const Product = () => {
       <div className="inner-container flex flex-col lg:flex-row">
         <div>
           <img
-            src="/temp-img.svg"
+            src="/product.png"
             alt="The UU App"
             className="rounded-2xl px-0 mb-[50px] lg:max-w-[700px] lg:mb-0 xl:mr-[50px]"
           />
