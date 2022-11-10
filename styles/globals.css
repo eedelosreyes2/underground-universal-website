@@ -37,7 +37,10 @@
     @apply cursor-pointer inline-block uppercase tracking-widest font-medium text-xs leading-5 rounded-full bg-gray-800 px-7 py-3;
   }
   .button-2 {
-    @apply cursor-pointer inline-block uppercase tracking-widest font-medium rounded-full bg-white text-black px-9 py-5
+    @apply cursor-pointer inline-block uppercase tracking-widest font-medium rounded-full bg-white text-black px-9 py-5;
+  }
+  .card {
+    @apply rounded-xl max-w-[365px] px-[30px] py-[15px] bg-neutral-900;
   }
 }
 
