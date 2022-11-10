@@ -6,7 +6,7 @@ const Join = () => {
           Join the Underground Universal{' '}
           <span className="red-text">Community</span>
         </h2>
-        <p className="max-w-[780px] mx-auto mb-10">
+        <p className="max-w-[780px] mx-auto pb-10">
           Underground Universal is founded by an underground hip-hop producer
           who saw the need for a label that wouldn't take advantage of creators
           like him. Our belief is because it is your music, your art, your
