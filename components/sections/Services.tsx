@@ -44,7 +44,10 @@ const Services = () => {
             <h2>
               <span className="red-text">Artist</span> Promotion
             </h2>
-            <p>Guaranteed exposure, audience growth, community, and more.</p>
+            <p>
+              Have the recognition you deserve with guaranteed exposure,
+              audience growth, community, and more.
+            </p>
           </div>
         </div>
       </div>
