@@ -1,6 +1,6 @@
-const Mission = () => {
+const Mission = ({ myRef }) => {
   return (
-    <div className="section col">
+    <div ref={myRef} className="section col">
       <div className="inner-container">
         <h3>Say goodbye to Unfair record labels and minimal royalties</h3>
         <h2>

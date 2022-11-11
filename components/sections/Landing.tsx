@@ -1,4 +1,4 @@
-const Landing = () => {
+const Landing = ({ executeScroll }) => {
   return (
     <div
       className="section col h-[620px] bg-no-repeat bg-cover bg-center flex items-center"
@@ -12,7 +12,9 @@ const Landing = () => {
         <p className="p-big mb-20">
           It's your music, your art. We take 0% of your royalties.
         </p>
-        <div className="button-1">Learn more</div>
+        <div onClick={executeScroll} className="button-1">
+          Learn more
+        </div>
       </div>
     </div>
   );

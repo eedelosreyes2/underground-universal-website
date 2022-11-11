@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { useRef } from 'react';
 import Footer from '../components/sections/Footer';
 import Join from '../components/sections/Join';
 import Landing from '../components/sections/Landing';
@@ -8,6 +9,11 @@ import Product from '../components/sections/Product';
 import Services from '../components/sections/Services';
 
 export default function Home() {
+  const myRef = useRef(null);
+  const executeScroll = () => {
+    myRef.current.scrollIntoView();
+  };
+
   return (
     <div>
       <Head>
@@ -18,8 +24,8 @@ export default function Home() {
           rel="stylesheet"
         ></link>
       </Head>
-      <Landing />
-      <Mission />
+      <Landing executeScroll={executeScroll} />
+      <Mission myRef={myRef} />
       <Problem />
       <Product />
       <Services />

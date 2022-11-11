@@ -44,8 +44,12 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: black;
   color: white;
-  font-family: Montserrat, sans-serif; /* TODO: Fix  */
+  font-family: Montserrat, sans-serif;
 }
