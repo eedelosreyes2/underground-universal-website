@@ -7,13 +7,13 @@
     @apply text-4xl leading-[48px] sm:text-[50px] sm:leading-[64px] lg:text-[64px] lg:leading-[70px] my-2.5;
   }
   h2 {
-    @apply text-3xl leading-[52px] md:text-4xl md:leading-[50px] mb-4;
+    @apply text-3xl leading-[52px] md:text-4xl md:leading-[50px] mb-3;
   }
   h3 {
     @apply uppercase opacity-60 tracking-widest font-medium text-xs leading-5 mb-4;
   }
   p {
-    @apply text-base opacity-60 leading-7 mb-2.5;
+    @apply text-base opacity-60 leading-6 mb-2.5;
   }
 }
 
