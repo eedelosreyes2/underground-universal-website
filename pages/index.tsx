@@ -11,7 +11,7 @@ import Services from '../components/sections/Services';
 export default function Home() {
   const myRef = useRef(null);
   const executeScroll = () => {
-    myRef.current.scrollIntoView();
+    myRef.current.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
