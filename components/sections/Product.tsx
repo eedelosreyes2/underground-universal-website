@@ -4,18 +4,21 @@ const Product = () => {
   return (
     <div className="section">
       <div className="inner-container flex flex-col lg:flex-row">
-        <div>
-          <img
-            src="/product.png"
-            alt="The UU App"
-            className="rounded-2xl px-0 mb-[50px] lg:max-w-[700px] lg:mb-0 xl:mr-[50px]"
-          />
-        </div>
+        <img
+          src="/product.png"
+          alt="The UU App"
+          className="hidden rounded-2xl px-0 mb-[50px] lg:block lg:max-w-[700px] lg:mb-0 xl:mr-[50px]"
+        />
         <div className="col">
           <h3>TAKE CREATIVE CONTROL</h3>
           <h2>
             The Underground Universal <span className="red-text">App</span>
           </h2>
+          <img
+            src="/product.png"
+            alt="The UU App"
+            className="rounded-2xl px-0 mb-6 lg:max-w-[700px] lg:hidden"
+          />
           <p className="mb-10">
             We give you the tools to seamlessly become an artist who deserves
             recognition. Discover new talent and collaborate with them on a
