@@ -22,7 +22,7 @@ const Product = () => {
             project you're passionate about while getting all the support you
             need as a rising artist.
           </p>
-          <div className="button-1">Join waitlist</div>
+          <div className="button-1 bg-white text-black">Join waitlist</div>
         </div>
       </div>
     </div>
