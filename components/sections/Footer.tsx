@@ -8,7 +8,11 @@ const Footer = () => {
       <div className="inner-container flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
         <div className="flex gap-6 items-center">
           <IconContext.Provider value={{ size: '1.25em' }}>
-            <a href="https://discord.com/invite/KNUG3yTsT8" target="_blank">
+            <a
+              href="https://discord.com/invite/KNUG3yTsT8"
+              target="_blank"
+              rel="noreferrer"
+            >
               <BsDiscord />
             </a>
           </IconContext.Provider>
@@ -16,10 +20,15 @@ const Footer = () => {
             <a
               href="https://www.instagram.com/undergrounduniversal"
               target="_blank"
+              rel="noreferrer"
             >
               <AiFillInstagram />
             </a>
-            <a href="https://twitter.com/UNDERGROUNDUV" target="_blank">
+            <a
+              href="https://twitter.com/UNDERGROUNDUV"
+              target="_blank"
+              rel="noreferrer"
+            >
               <BsTwitter />
             </a>
           </IconContext.Provider>
@@ -27,6 +36,7 @@ const Footer = () => {
             <a
               href="https://www.linkedin.com/company/underground-universal"
               target="_blank"
+              rel="noreferrer"
             >
               <BsLinkedin />
             </a>
