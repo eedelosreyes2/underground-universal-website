@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="p-5 py-10">
       <div className="inner-container flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
-        <div className="flex gap-6 items-center">
+        <div className="flex gap-6 items-center justify-center">
           <IconContext.Provider value={{ size: '1.25em' }}>
             <a
               href="https://discord.com/invite/KNUG3yTsT8"
@@ -42,7 +42,9 @@ const Footer = () => {
             </a>
           </IconContext.Provider>
         </div>
-        <h3 className="m-0">COPYRIGHT @ 2022 UNDERGROUND UNIVERSAL</h3>
+        <h3 className="m-0 text-center">
+          COPYRIGHT @ 2022 UNDERGROUND UNIVERSAL
+        </h3>
       </div>
     </div>
   );
