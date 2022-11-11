@@ -15,7 +15,7 @@ const Services = () => {
             <h2>Studio Booking</h2>
             <p>
               We book, you create. Choose your studio and receive hassle-free
-              booking while you work on your music.
+              booking.
             </p>
           </div>
           <div className="card">

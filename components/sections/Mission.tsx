@@ -5,7 +5,7 @@ const Mission = () => {
         <h3>Say goodbye to Unfair record labels and minimal royalties</h3>
         <h2>
           At the heart of Underground Universal is a record label that puts the
-          artist first.
+          artist first
         </h2>
       </div>
     </div>
