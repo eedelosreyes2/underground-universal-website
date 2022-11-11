@@ -40,7 +40,7 @@
     @apply cursor-pointer inline-block uppercase tracking-widest font-medium rounded-full bg-white text-black px-9 py-5;
   }
   .image-shadow {
-    box-shadow: 12px 12px 2px 1px rgb(42 42 42 / 20%);
+    box-shadow: 12px 12px 2px 1px rgb(4 4 4 / 90%);
   }
   .card {
     @apply rounded-xl max-w-[365px] px-[30px] py-[15px] bg-neutral-900;
