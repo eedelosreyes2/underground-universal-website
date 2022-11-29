@@ -23,7 +23,9 @@ const Product = () => {
             project you're passionate about while getting all the support you
             need as a rising artist.
           </p>
-          <div className="button-1 bg-white text-black">Join waitlist</div>
+          <a href="https://form.typeform.com/to/vZGqdwFw" target="_blank">
+            <div className="button-1 bg-white text-black">Join waitlist</div>
+          </a>
         </div>
       </div>
     </div>
