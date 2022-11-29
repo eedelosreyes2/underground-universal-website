@@ -13,7 +13,7 @@
     @apply uppercase opacity-60 tracking-widest font-medium text-xs leading-5 mb-4;
   }
   p {
-    @apply text-base opacity-60 leading-6 mb-2.5;
+    @apply text-base opacity-60 leading-7 mb-2.5;
   }
 }
 
