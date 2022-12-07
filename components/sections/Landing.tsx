@@ -1,5 +1,7 @@
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
+import { IconContext } from 'react-icons';
+import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 
 const Landing = ({
   scrollToMission,
@@ -34,7 +36,7 @@ const Landing = ({
             className="h-fit"
           />
           <div onClick={() => setNavOpen(!navOpen)} className="cursor-pointer">
-            E
+            <AiOutlineMenu />
           </div>
           {navOpen && (
             <div className="absolute flex justify-center p-7 bg-black top-0 left-0 right-0">
@@ -42,7 +44,14 @@ const Landing = ({
                 onClick={() => setNavOpen(!navOpen)}
                 className="absolute right-8 cursor-pointer"
               >
-                X
+                <IconContext.Provider
+                  value={{
+                    size: '1.2em',
+                    style: { marginTop: '5px', marginRight: '-5px' },
+                  }}
+                >
+                  <AiOutlineClose />
+                </IconContext.Provider>
               </div>
               <div className="flex flex-col gap-12 pt-2 items-center">
                 <h3
@@ -126,7 +135,7 @@ const Landing = ({
           The Hip-Hop label that works for the{' '}
           <span className="red-text">artist</span>
         </h1>
-        <p className="p-big mb-20">
+        <p className="p-big mb-28">
           It's your music, your art. We take 0% of your royalties.
         </p>
         <div onClick={scrollToMission} className="button-1">
