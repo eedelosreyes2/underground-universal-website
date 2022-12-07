@@ -1,6 +1,6 @@
-const Product = () => {
+const Product = ({ productRef }) => {
   return (
-    <div className="section">
+    <div ref={productRef} className="section">
       <div className="inner-container flex flex-col lg:flex-row">
         <img
           src="/product.png"

@@ -1,6 +1,11 @@
 import Image from 'next/image';
 
-const Landing = ({ executeScroll }) => {
+const Landing = ({
+  scrollToMission,
+  scrollToProblem,
+  scrollToProduct,
+  scrollToServices,
+}) => {
   return (
     <div
       className="section col h-[650px] bg-no-repeat bg-cover bg-center flex flex-col md:pt-5 "
@@ -17,10 +22,18 @@ const Landing = ({ executeScroll }) => {
             className="h-fit"
           />
           <div className="flex gap-12 items-center">
-            <h3 className="nav-item">Mission</h3>
-            <h3 className="nav-item">Problem</h3>
-            <h3 className="nav-item">Product</h3>
-            <h3 className="nav-item">Services</h3>
+            <h3 onClick={scrollToMission} className="nav-item">
+              Mission
+            </h3>
+            <h3 onClick={scrollToProblem} className="nav-item">
+              Problem
+            </h3>
+            <h3 onClick={scrollToProduct} className="nav-item">
+              Product
+            </h3>
+            <h3 onClick={scrollToServices} className="nav-item">
+              Services
+            </h3>
             <a
               href="https://form.typeform.com/to/vZGqdwFw"
               target="_blank"
@@ -39,7 +52,7 @@ const Landing = ({ executeScroll }) => {
         <p className="p-big mb-20">
           It's your music, your art. We take 0% of your royalties.
         </p>
-        <div onClick={executeScroll} className="button-1">
+        <div onClick={scrollToMission} className="button-1">
           Learn more
         </div>
       </div>

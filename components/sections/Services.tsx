@@ -1,6 +1,6 @@
-const Services = () => {
+const Services = ({ servicesRef }) => {
   return (
-    <div className="section col">
+    <div ref={servicesRef} className="section col">
       <div className="inner-container">
         <h3>Get the support you need</h3>
         <div className="flex flex-wrap gap-5 justify-center">
