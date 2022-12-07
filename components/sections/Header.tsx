@@ -1,51 +1,32 @@
-import { IconContext } from 'react-icons';
-import { BsDiscord, BsTwitter, BsLinkedin } from 'react-icons/bs';
-import { AiFillInstagram } from 'react-icons/ai';
+import Image from 'next/image';
 
 const Header = () => {
   return (
-    <div className="p-5 py-10">
-      logo
-      <div className="inner-container flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
-        <div className="flex gap-6 items-center justify-center">
-          <IconContext.Provider value={{ size: '1.25em' }}>
-            <a
-              href="https://discord.com/invite/KNUG3yTsT8"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <BsDiscord />
-            </a>
-          </IconContext.Provider>
-          <IconContext.Provider value={{ size: '1.5em' }}>
-            <a
-              href="https://www.instagram.com/undergrounduniversal"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <AiFillInstagram />
-            </a>
-            <a
-              href="https://twitter.com/UNDERGROUNDUV"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <BsTwitter />
-            </a>
-          </IconContext.Provider>
-          <IconContext.Provider value={{ size: '1.15em' }}>
-            <a
-              href="https://www.linkedin.com/company/underground-universal"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <BsLinkedin />
-            </a>
-          </IconContext.Provider>
+    <div className="hidden md:block px-[30px]">
+      <div
+        className="inner-container absolute left-0 right-0 
+      flex justify-between items-center py-5 mx-auto"
+      >
+        <Image
+          src="/logo.png"
+          width={142}
+          height={42}
+          alt="Logo"
+          className="h-fit"
+        />
+        <div className="flex gap-12 items-center">
+          <h3 className="mb-0">Mission</h3>
+          <h3 className="mb-0">Problem</h3>
+          <h3 className="mb-0">Product</h3>
+          <h3 className="mb-0">Services</h3>
+          <a
+            href="https://form.typeform.com/to/vZGqdwFw"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="button-1 bg-red-600">Join</div>
+          </a>
         </div>
-        <h3 className="m-0 text-center">
-          COPYRIGHT @ 2022 UNDERGROUND UNIVERSAL
-        </h3>
       </div>
     </div>
   );

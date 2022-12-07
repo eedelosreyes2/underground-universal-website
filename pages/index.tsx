@@ -10,9 +10,9 @@ import Product from '../components/sections/Product';
 import Services from '../components/sections/Services';
 
 export default function Home() {
-  const myRef = useRef(null);
+  const missionRef = useRef(null);
   const executeScroll = () => {
-    myRef.current.scrollIntoView({ behavior: 'smooth' });
+    missionRef.current.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
@@ -27,7 +27,7 @@ export default function Home() {
       </Head>
       {/* <Header /> */}
       <Landing executeScroll={executeScroll} />
-      <Mission myRef={myRef} />
+      <Mission missionRef={missionRef} />
       <Problem />
       <Product />
       <Services />

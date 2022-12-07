@@ -45,6 +45,9 @@
   .card {
     @apply rounded-xl max-w-[365px] px-[30px] py-[15px] bg-neutral-900;
   }
+  .nav-item {
+    @apply cursor-pointer mb-0;
+  }
 }
 
 body {
