@@ -35,9 +35,9 @@ const Services = ({ servicesRef }) => {
           <div className="card">
             <h2>Distribution</h2>
             <p>
-              Effortless music distribution made possible by TuneCore. Get
-              unlimited uploads to 150+ digital stores worldwide including Apple
-              Music and Spotify.
+              Effortless music distribution made possible by Music Gateway. Get
+              unlimited uploads to 300+ digital streaming platforms worldwide
+              including Apple Music and Spotify.
             </p>
           </div>
           <div className="card">
