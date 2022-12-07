@@ -15,7 +15,11 @@ const Join = () => {
           creative needs by providing easy access to collaborators, engineers,
           studios, music distribution and promotion.
         </p>
-        <a href="https://form.typeform.com/to/vZGqdwFw" target="_blank">
+        <a
+          href="https://form.typeform.com/to/vZGqdwFw"
+          target="_blank"
+          rel="noreferrer"
+        >
           <div className="button-2">Join</div>
         </a>
       </div>

@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { useRef } from 'react';
 import Footer from '../components/sections/Footer';
 import Join from '../components/sections/Join';
+import Header from '../components/sections/Header';
 import Landing from '../components/sections/Landing';
 import Mission from '../components/sections/Mission';
 import Problem from '../components/sections/Problem';
@@ -24,6 +25,7 @@ export default function Home() {
           rel="stylesheet"
         ></link>
       </Head>
+      <Header />
       <Landing executeScroll={executeScroll} />
       <Mission myRef={myRef} />
       <Problem />
