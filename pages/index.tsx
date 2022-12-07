@@ -25,7 +25,7 @@ export default function Home() {
           rel="stylesheet"
         ></link>
       </Head>
-      <Header />
+      {/* <Header /> */}
       <Landing executeScroll={executeScroll} />
       <Mission myRef={myRef} />
       <Problem />
