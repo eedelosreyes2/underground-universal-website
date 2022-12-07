@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { useEffect, useState } from 'react';
 
 const Landing = ({
   scrollToMission,
@@ -6,12 +7,88 @@ const Landing = ({
   scrollToProduct,
   scrollToServices,
 }) => {
+  const [navOpen, setNavOpen] = useState(false);
+
+  useEffect(() => {
+    console.log(navOpen);
+  }, [navOpen]);
+
+  const handleNavClick = (scrollToSection) => {
+    scrollToSection();
+    setNavOpen(!navOpen);
+  };
+
   return (
     <div
-      className="section col h-[650px] bg-no-repeat bg-cover bg-center flex flex-col md:pt-5 "
+      className="section col h-[650px] bg-no-repeat bg-cover bg-center flex flex-col pt-5"
       style={{ backgroundImage: 'url(landing-img.jpg)' }}
     >
       <div className="inner-container mb-8 sm:mb-0">
+        {/* Header sm */}
+        <div className="mb-20 flex justify-between items-center md:hidden">
+          <Image
+            src="/logo.png"
+            width={142}
+            height={42}
+            alt="Logo"
+            className="h-fit"
+          />
+          <div onClick={() => setNavOpen(!navOpen)} className="cursor-pointer">
+            E
+          </div>
+          {navOpen && (
+            <div className="absolute flex justify-center p-7 bg-black top-0 left-0 right-0">
+              <div
+                onClick={() => setNavOpen(!navOpen)}
+                className="absolute right-8 cursor-pointer"
+              >
+                X
+              </div>
+              <div className="flex flex-col gap-12 pt-2 items-center">
+                <h3
+                  onClick={() => handleNavClick(scrollToMission)}
+                  className="nav-item"
+                >
+                  Mission
+                </h3>
+                <h3
+                  onClick={() => handleNavClick(scrollToProblem)}
+                  className="nav-item"
+                >
+                  Problem
+                </h3>
+                <h3
+                  onClick={() => handleNavClick(scrollToProduct)}
+                  className="nav-item"
+                >
+                  Product
+                </h3>
+                <h3
+                  onClick={() => handleNavClick(scrollToServices)}
+                  className="nav-item"
+                >
+                  Services
+                </h3>
+                <a
+                  href="https://form.typeform.com/to/vZGqdwFw"
+                  target="_blank"
+                  rel="noreferrer"
+                  onClick={() => setNavOpen(!navOpen)}
+                >
+                  <div className="button-1 bg-red-600">Join</div>
+                </a>
+              </div>
+
+              {/* <div
+                onClick={() => setNavOpen(!navOpen)}
+                className="cursor-pointer"
+              >
+                X
+              </div> */}
+            </div>
+          )}
+        </div>
+
         {/* Header md-up */}
         <div className="justify-between md:mb-28 hidden md:flex">
           <Image
