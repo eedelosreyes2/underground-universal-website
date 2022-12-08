@@ -21,8 +21,9 @@ const Services = ({ servicesRef }) => {
           <div className="card">
             <h2>Mixing & Mastering</h2>
             <p>
-              Get in-house, online, and in-person studio options available near
-              you.
+              Members get in-house mixing and mastering including up to 60 songs
+              mixed per year plus unlimited mastering. Third party options
+              available from select studios on the app.
             </p>
           </div>
           <div className="card">
