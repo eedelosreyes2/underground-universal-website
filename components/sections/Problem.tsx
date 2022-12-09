@@ -2,7 +2,7 @@ const Problem = ({ problemRef }) => {
   return (
     <div ref={problemRef} className="section col">
       <div className="inner-container">
-        <h3>The Problem With Music Today</h3>
+        <h3>The Problem With The Industry Today</h3>
         <div className="grid gap-20 lg:flex">
           <div>
             <h2>
@@ -17,10 +17,9 @@ const Problem = ({ problemRef }) => {
           <div>
             <h2>Artist Support</h2>
             <p>
-              When you sign to a record label, you often lose creative control
-              of your music. This includes being granted time and freedom to
-              create new albums that are unique to your creative vision as an
-              artist.
+              When you sign to record label you often lose creative control. As
+              a member of a non exclusive label, provide yourself freedom and
+              choose your time to create and release unlimited music.
             </p>
           </div>
 
