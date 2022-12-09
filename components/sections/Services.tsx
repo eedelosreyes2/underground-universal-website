@@ -22,7 +22,7 @@ const Services = ({ servicesRef }) => {
             <h2>Mixing & Mastering</h2>
             <p>
               Get up to 60 songs mixed per year plus unlimited mastering
-              in-house, online, or from select studios.
+              in-house.
             </p>
           </div>
           <div className="card">
