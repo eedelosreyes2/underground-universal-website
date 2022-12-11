@@ -79,7 +79,7 @@ const Landing = ({
                   Services
                 </h3>
                 <a
-                  href="https://form.typeform.com/to/vZGqdwFw"
+                  href="https://kfgb6of6ngj.typeform.com/to/clj1rqp5"
                   target="_blank"
                   rel="noreferrer"
                   onClick={() => setNavOpen(!navOpen)}
@@ -121,7 +121,7 @@ const Landing = ({
               Services
             </h3>
             <a
-              href="https://form.typeform.com/to/vZGqdwFw"
+              href="https://kfgb6of6ngj.typeform.com/to/clj1rqp5"
               target="_blank"
               rel="noreferrer"
             >
