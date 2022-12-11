@@ -24,7 +24,7 @@ const Product = ({ productRef }) => {
             need as a rising artist.
           </p>
           <a
-            href="https://kfgb6of6ngj.typeform.com/to/clj1rqp5"
+            href="https://form.typeform.com/to/clj1rqp5"
             target="_blank"
             rel="noreferrer"
           >
