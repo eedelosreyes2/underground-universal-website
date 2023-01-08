@@ -138,8 +138,17 @@ const Landing = ({
         <p className="p-big mb-28">
           It's your music, your art. We take 0% of your royalties.
         </p>
-        <div onClick={scrollToMission} className="button-1">
-          Learn more
+        <div className="flex items-start gap-5">
+          <div onClick={scrollToMission} className="button-1">
+            Learn more
+          </div>
+          <a
+            href="https://discord.com/invite/KNUG3yTsT8"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="button-1">Join Discord</div>
+          </a>
         </div>
       </div>
     </div>
