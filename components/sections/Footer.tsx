@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="inner-container flex flex-col justify-between gap-28 sm:gap-48 md:flex-row md:items-end">
         <div className="flex flex-col items-center md:items-start">
           <h3>See what we're up to</h3>
-          <div className="flex gap-6 items-center justify-center">
+          <div className="flex gap-6 items-center justify-center pb-3">
             <IconContext.Provider value={{ size: '1.35em' }}>
               <a
                 href="https://discord.com/invite/KNUG3yTsT8"
