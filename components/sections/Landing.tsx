@@ -139,7 +139,7 @@ const Landing = ({
         <p className="p-big mb-28">
           It's your music, your art. We take 0% of your royalties.
         </p>
-        <div className="flex items-start gap-5">
+        <div className="flex items-start gap-3">
           <div onClick={scrollToMission} className="button-1">
             Learn more
           </div>
