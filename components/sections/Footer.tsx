@@ -6,7 +6,7 @@ import { SiTiktok } from 'react-icons/si';
 const Footer = () => {
   return (
     <div className="p-5 py-10">
-      <div className="inner-container flex flex-col justify-between gap-28 md:flex-row md:items-end">
+      <div className="inner-container flex flex-col justify-between gap-28 sm:gap-48 md:flex-row md:items-end">
         <div className="flex flex-col items-center md:items-start">
           <h3>See what we're up to</h3>
           <div className="flex gap-6 items-center justify-center">
