@@ -1,5 +1,6 @@
 import { IconContext } from 'react-icons';
-import { BsDiscord, BsTwitter, BsLinkedin } from 'react-icons/bs';
+import { SiDiscord } from 'react-icons/si';
+import { BsTwitter, BsLinkedin } from 'react-icons/bs';
 import { AiFillInstagram } from 'react-icons/ai';
 import { SiTiktok } from 'react-icons/si';
 
@@ -10,13 +11,13 @@ const Footer = () => {
         <div className="flex flex-col items-center md:items-start">
           <h3>See what we're up to</h3>
           <div className="flex gap-6 items-center justify-center">
-            <IconContext.Provider value={{ size: '1.25em' }}>
+            <IconContext.Provider value={{ size: '1.35em' }}>
               <a
                 href="https://discord.com/invite/KNUG3yTsT8"
                 target="_blank"
                 rel="noreferrer"
               >
-                <BsDiscord />
+                <SiDiscord />
               </a>
             </IconContext.Provider>
             <IconContext.Provider value={{ size: '1.5em' }}>

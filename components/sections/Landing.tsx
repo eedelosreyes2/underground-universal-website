@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { IconContext } from 'react-icons';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import { SiDiscord } from 'react-icons/si';
 
 const Landing = ({
   scrollToMission,
@@ -147,7 +148,20 @@ const Landing = ({
             target="_blank"
             rel="noreferrer"
           >
-            <div className="button-1">Join Discord</div>
+            <div className="button-1">
+              <div className="hidden sm:block">Join Discord</div>
+              <div className="sm:hidden">
+                <IconContext.Provider value={{ size: '2em' }}>
+                  <a
+                    href="https://discord.com/invite/KNUG3yTsT8"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <SiDiscord />
+                  </a>
+                </IconContext.Provider>
+              </div>
+            </div>
           </a>
         </div>
       </div>
