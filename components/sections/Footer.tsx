@@ -1,6 +1,7 @@
 import { IconContext } from 'react-icons';
 import { BsDiscord, BsTwitter, BsLinkedin } from 'react-icons/bs';
 import { AiFillInstagram } from 'react-icons/ai';
+import { SiTiktok } from 'react-icons/si';
 
 const Footer = () => {
   return (
@@ -32,13 +33,22 @@ const Footer = () => {
               <BsTwitter />
             </a>
           </IconContext.Provider>
-          <IconContext.Provider value={{ size: '1.15em' }}>
+          {/* <IconContext.Provider value={{ size: '1.15em' }}>
             <a
               href="https://www.linkedin.com/company/underground-universal"
               target="_blank"
               rel="noreferrer"
             >
               <BsLinkedin />
+            </a>
+          </IconContext.Provider> */}
+          <IconContext.Provider value={{ size: '1.3em' }}>
+            <a
+              href="https://www.tiktok.com/@undergrounduniversal"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <SiTiktok />
             </a>
           </IconContext.Provider>
         </div>
