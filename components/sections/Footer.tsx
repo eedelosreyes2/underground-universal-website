@@ -43,7 +43,7 @@ const Footer = () => {
           </IconContext.Provider>
         </div>
         <h3 className="m-0 text-center">
-          COPYRIGHT @ 2022 UNDERGROUND UNIVERSAL
+          COPYRIGHT @ {new Date().getFullYear()} UNDERGROUND UNIVERSAL
         </h3>
       </div>
     </div>
