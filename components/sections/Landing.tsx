@@ -152,13 +152,7 @@ const Landing = ({
               <div className="hidden sm:block">Join Discord</div>
               <div className="sm:hidden">
                 <IconContext.Provider value={{ size: '2em' }}>
-                  <a
-                    href="https://discord.com/invite/KNUG3yTsT8"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <SiDiscord />
-                  </a>
+                  <SiDiscord />
                 </IconContext.Provider>
               </div>
             </div>
