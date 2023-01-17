@@ -1,3 +1,6 @@
+import { IconContext } from 'react-icons';
+import { SiDiscord } from 'react-icons/si';
+
 const Join = () => {
   return (
     <div className="section col bg-neutral-900 bg-opacity-50 mb-[100px] sm:mb-[200px]">
@@ -22,13 +25,29 @@ const Join = () => {
           creative needs by providing easy access to the functions of a label
           without taking from the artists like one.
         </p>
-        <a
-          href="https://form.typeform.com/to/clj1rqp5"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <div className="button-2">Join</div>
-        </a>
+        <div className="flex justify-center gap-3">
+          <a
+            href="https://form.typeform.com/to/clj1rqp5"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="button-2">Join</div>
+          </a>
+          <a
+            href="https://discord.com/invite/KNUG3yTsT8"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="button-2">
+              {/* <div className="hidden sm:block">Join Discord</div> */}
+              <div className="">
+                <IconContext.Provider value={{ size: '1.5em' }}>
+                  <SiDiscord />
+                </IconContext.Provider>
+              </div>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
   );
