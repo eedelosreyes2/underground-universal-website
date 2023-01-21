@@ -18,8 +18,8 @@ const Problem = ({ problemRef }) => {
             <h2>Artist Support</h2>
             <p>
               When you sign to a record label you often lose creative control.
-              As a member of a non exclusive label, provide yourself freedom and
-              choose your time to create and release unlimited music.
+              Many major record labels do not provide you with artistic freedom
+              and the choice of what you release is no longer your own.
             </p>
           </div>
 
